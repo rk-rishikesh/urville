@@ -1,0 +1,14 @@
+.product-details-image img {
+  width: 500px;
+  object-fit: cover;
+  height: 500px;
+  margin-top: -50px;
+}
+
+@media (min-width: 768px) {
+  /* .product-details-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  } */
+}

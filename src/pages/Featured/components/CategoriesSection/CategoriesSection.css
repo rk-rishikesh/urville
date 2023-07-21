@@ -1,0 +1,111 @@
+.categories-container-one {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-flow: row nowrap;
+  margin: 10rem auto 1rem auto;
+}
+
+.categories-container-two {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-flow: row nowrap;
+  margin: 1rem auto 10rem auto;
+}
+
+.categories-heading {
+  font-size: 7rem;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: -60px;
+  font-size: 2.5em;
+  background: #000000;
+  background: linear-gradient(to right, #000000 0%, #5e5e5e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.categories-loading {
+  text-align: center;
+  margin-bottom: -60px;
+}
+
+.category-card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-cont {
+  object-fit: cover;
+  width: 650px;
+  height: 250px;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+.category-card h3 {
+  position: absolute;
+  margin-top: 100%;
+  padding: 0.8rem 2.5rem;
+  z-index: 1;
+  font-weight: 800;
+  border: none;
+  border-radius: 25px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(207, 207, 207);
+}
+
+.category-card h3:hover {
+  background-color: white;
+}
+
+.category-card .featured{
+  position: absolute;
+  margin-top: -5.8%;
+  margin-right: 58%;
+  width:60%;
+  height: 100%;
+  border: none;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  /* .categories-container {
+    flex-flow: row nowrap;
+    /* width: 95vw;
+    height: 600px; */
+    /* justify-content: space-between; 
+  } */
+  .categories-heading {
+    font-size: 7rem;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: -100px;
+  }
+
+  .category-card {
+    align-items: stretch;
+  }
+
+  .img-feature {
+    flex-grow: 1;
+    border: 0.2px solid rgb(255, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 20%;
+  }
+  /* .category-card img {
+    object-fit: cover;
+    height: 100%;
+    opacity: 1;
+    border-radius: 20px;
+    height: 100%;
+  } */
+
+  .category-card h3 {
+    bottom: 15px;
+  }
+}
