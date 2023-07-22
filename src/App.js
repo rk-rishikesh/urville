@@ -13,7 +13,7 @@ import { configureChains, createConfig, WagmiConfig } from "wagmi";
 import { arbitrum, mainnet, polygon } from "wagmi/chains";
 
 const chains = [arbitrum, mainnet, polygon];
-const projectId = "";
+const projectId = "1ad6212ef950df664fe3935140fcef74";
 
 const { publicClient } = configureChains(chains, [w3mProvider({ projectId })]);
 const wagmiConfig = createConfig({

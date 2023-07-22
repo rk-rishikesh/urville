@@ -39,6 +39,7 @@ export const Home = () => {
 
       console.log(address);
       const balance = await urvilleNFT.balanceOf(address, 1);
+      console.log(balance)
       if(balance == 0) {
         console.log("First Time User")
         setFirstTimeUser(true);
@@ -49,8 +50,8 @@ export const Home = () => {
   };
 
   return (
-    <div className="home-page">
-      <div className="hero">
+    <div>
+      <div>
         {isConnected && first && <Welcome />}
         {!first && (
           <>

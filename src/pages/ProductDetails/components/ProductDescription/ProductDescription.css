@@ -1,5 +1,5 @@
 .products-page-container .product-details-description {
-  width: 70vw;
+  width: 80vw;
   height: 50vh;
   display: flex;
   flex-flow: column nowrap;
@@ -129,7 +129,7 @@
 
 @media (min-width: 768px) {
   .products-page-container .product-details-description {
-    width: 25vw;
+    width: 40vw;
     height: 300px;
     justify-content: space-between;
     line-height: 26px;
