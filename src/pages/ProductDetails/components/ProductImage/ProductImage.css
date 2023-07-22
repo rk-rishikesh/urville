@@ -24,8 +24,7 @@
 
 .screenshots img {
   width: 164.5px;
-  height: 100px;
-  border-radius: 7%;
+  border-radius: 5%;
 }
 
 @media (min-width: 768px) {
