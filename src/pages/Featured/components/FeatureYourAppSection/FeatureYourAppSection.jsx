@@ -56,7 +56,7 @@ export const FeatureYourAppSection = () => {
           // onSubmit={(e) => loginHandler(e, email, password)}
         
         >
-          {/* Loot Box */}
+        
           <div className="input-box">
             <div className="text-container">
               <img
