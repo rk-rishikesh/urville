@@ -50,18 +50,18 @@ export const Welcome = () => {
       const signer = await provider.getSigner();
 
       console.log(signer);
-      // const urvilleNFT = new ethers.Contract(
-      //   UrvilleContract,
-      //   UrvilleABI,
-      //   signer
-      // );
+      const urvilleNFT = new ethers.Contract(
+        UrvilleContract,
+        UrvilleABI,
+        signer
+      );
 
-      // console.log(urvilleNFT);
+      console.log(urvilleNFT);
 
-      // console.log(address);
-      // const claim = await urvilleNFT.mint();
+      console.log(address);
+      const claim = await urvilleNFT.mint();
 
-      // console.log(claim);
+      console.log(claim);
       setClaimed(true);
     }
   };
