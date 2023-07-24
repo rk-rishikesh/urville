@@ -41,66 +41,44 @@ export const FeatureYourAppSection = () => {
                 </div>
               </label>
             </div>
+            
           </div>
-
-          <div className="feature-btn-container">
-            <input value="Feature" type="submit" />
-          </div>
-        </form>
-        
-        <h1 className="lootbox-heading">Create LootBox</h1>
-
-        <form
-          // onSubmit={(e) => loginHandler(e, email, password)}
-        
-        >
-        
           <div className="input-box">
             <div className="text-container">
-              <img
-                style={{ width: "60%" }}
-                src="https://t3.ftcdn.net/jpg/05/81/96/18/360_F_581961887_UMLpEZjYjvieMoV8EbF2pzPb3rqBxyZS.jpg"
+              <label>Select Week</label>
+              <input
+                // value={loginCredential.email}
+                required
+                // onChange={(e) =>
+                //   setLoginCredential({
+                //     ...loginCredential,
+                //     email: e.target.value,
+                //   })
+                // }
+                id="week"
+                type="week"
               />
             </div>
-
-            <div style={{ marginLeft: "-8%", marginTop: "7%" }}>
-              <div className="loot-container">
-                <label>NFT Contract Address </label>
-                <input
-                  // value={loginCredential.email}
-                  required
-                  // onChange={(e) =>
-                  //   setLoginCredential({
-                  //     ...loginCredential,
-                  //     email: e.target.value,
-                  //   })
-                  // }
-                  id="appID"
-                  placeholder="0x0000....000"
-                  type="text"
-                />
-              </div>
-              <div className="loot-container">
-                <label>Token ID</label>
-                <input
-                  // value={loginCredential.email}
-                  required
-                  // onChange={(e) =>
-                  //   setLoginCredential({
-                  //     ...loginCredential,
-                  //     email: e.target.value,
-                  //   })
-                  // }
-                  id="appID"
-                  placeholder="00"
-                  type="text"
-                />
-              </div>
+            <div className="text-container">
+              <label>Enter POC Email</label>
+              <input
+                // value={loginCredential.email}
+                required
+                // onChange={(e) =>
+                //   setLoginCredential({
+                //     ...loginCredential,
+                //     email: e.target.value,
+                //   })
+                // }
+                placeholder="emaple@gmail.com"
+                id="email"
+                type="email"
+              />
             </div>
+            
           </div>
-
-          <div className="lootbox-btn-container">
-            <input value="Create Lootbox" type="submit" />
+          <div className="feature-btn-container">
+            <input value="Pay $5 to feature" type="submit" />
           </div>
         </form>
       </div>

@@ -49,6 +49,7 @@
 .login-container .input-box {
   display: flex;
   flex-flow: row nowrap;
+  margin-top: 10%;
 }
 
 .login-container > h2 {
@@ -136,7 +137,7 @@
   display: flex;
   flex-flow: column nowrap;
   width: 150px;
-  margin-left: 5%;
+  margin-left: 53%;
 }
 
 .text-container .text-btn-container button {
