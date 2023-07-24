@@ -48,7 +48,7 @@ export const Header = () => {
             src="https://cdn3d.iconscout.com/3d/premium/thumb/chat-group-6896117-5656080.png"/> */}
             <img
               onClick={showDrawer}
-              style={{ paddingLeft: "2%", width: "55px", height:"45px" }}
+              style={{ paddingLeft: "8%", width: "60px", height:"45px" }}
               src="https://cdn3d.iconscout.com/3d/premium/thumb/notification-3994308-3307642.png?f=webp"
             />
           </div>
