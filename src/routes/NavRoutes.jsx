@@ -7,6 +7,7 @@ import { ProductDetails } from "../pages/ProductDetails/ProductDetails";
 
 import { PageNotFound } from "../pages/PageNotFound/PageNotFound";
 import { Featured } from "../pages/Featured/Featured";
+import { Sponsored } from "../pages/Sponsored/Sponsored";
 
 export const NavRoutes = () => {
   return (
@@ -16,6 +17,7 @@ export const NavRoutes = () => {
       <Route path="/product-details/:productId" element={<ProductDetails />} />
       <Route path="/product-listing/:category" element={<ProductListing />} />
       <Route path="/feature" element={<Featured/>}/>
+      <Route path="/sponsor" element={<Sponsored/>}/>
     </Routes>
   );
 };

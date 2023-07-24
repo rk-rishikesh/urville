@@ -11,6 +11,13 @@ export const CategoriesSection = () => {
 
   useEffect(() => {
     const fetchData = async () => {
+
+      const blockchainData = await fetch(
+        "https://api.polygonscan.com/api?module=account&action=tokentx&address=0xC05cF3C4575105C87c7A914C1043D926beC5dC04&startblock=0&endblock=99999999&page=1&offset=5&sort=asc&apikey=WGTE6WW67PF7ZY3V7WHR4BHBFK12GEQHEY", {mode: 'cors'}
+      );
+
+      console.log(blockchainData)
+
       console.log(true);
       // Fetch appIDList from smart contract
       var appIDList = [
